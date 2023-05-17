@@ -64,5 +64,6 @@
             }
         ]
     },
-    "editor.fontSize": 18,
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on",
 }
