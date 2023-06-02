@@ -30,16 +30,20 @@
 """
 
 
+# check if a number is prime or not
 def is_prime(n):
     for i in range(2, n):
-        return False if n % i == 0 else ...
+        if n % i == 0:
+            return False
     return True
 
 
+#  Main function with all functionality
 def main():
     n = int(input("Enter a number: "))
     print("{} is {} prime number".format(n, "a" if is_prime(n) else "not a"))
 
 
+# Driver's code
 if __name__ == "__main__":
     main()
