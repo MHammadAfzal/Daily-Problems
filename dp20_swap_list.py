@@ -17,7 +17,7 @@ Output : [3, 2, 1]
 
 """
 ? -------------> Pseudocode
-=> Create an list(array) from user
+=> Create an list(array) 
 => Call function to swap first and last element of array
     -> Identify First Element of list
     -> Identify Second Element of list
